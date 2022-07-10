@@ -1,4 +1,5 @@
 async function signupFormHandler(event) {
+
     event.preventDefault();
 
     const email = document.querySelector('#email-signup').value.trim();
@@ -25,5 +26,6 @@ async function signupFormHandler(event) {
         }
     }
 }
+
 
 document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
